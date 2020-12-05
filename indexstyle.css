@@ -1,0 +1,83 @@
+/* allgemeines Design */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    color: darkred;
+    background: silver;
+}
+
+/* allgemeine Überschriften Design */
+h2{
+    color: darkred;
+}
+
+/* allgemeines Container Design */
+.container{
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Header-Style */
+header{
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    line-height: 20px;
+}
+
+nav {
+    float: right;
+    line-height: 90px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background: silver;
+    line-height: normal;
+    border-radius: 5px;
+    }
+
+/* Header-Link color ------------------------------------------WARUM GEHT NICHT??????*/
+a:link {
+    color: darkred;
+  }
+ 
+a:visited {
+    color: red;
+  }
+  
+/* Content-Style */
+.content h2{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content article{
+    float: left;
+    width: 750px;
+}
+
+.content ul{
+    float: right;
+    width: 250px;
+    background: darkred;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.content ul li{
+    color: white;
+    margin-bottom: 5px;
+
+}

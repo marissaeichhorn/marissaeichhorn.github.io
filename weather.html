@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Meta chartset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webengeneering I</title>
+    <link rel="stylesheet" href="weatherstyle.css">
+</head>
+
+<body>
+    <!-- Menüleiste mit Logo -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" width="100" alt="" title="">
+            </div>
+
+            <nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="impressum.html">Rudolfs Impressum</a></li>
+                <li><a href="bunnys.html">Rudolfs Lieblingshasen</a></li>
+                <li><a href="weather.html">Rudolf geht raus</a></li>
+            </nav>
+        </div>    
+    </header>
+
+    <!-- Daten einlesen und Antwort anfordern -->
+    <div class="input">
+        <input type="text" placeholder="Rudolf: Where I am?" class="input_text">
+        <input type="submit" value="Submit" class="submit">
+    </div>
+    
+    <!-- Antwort von API -->  
+    <div class="container">
+        <div class="card" id="card">
+            <h1 class="name" id="name"></h1>
+            <p class="temp"></p>
+            <p class="clouds"></p>
+            <p class="desc"></p>
+            <!-- <p class="id"></p> -->
+            <!-- <p class="icon"></p> -->
+            <div class="flex">
+                <img id="picture" src="#">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Antwort ausfüllen -->
+    <script src="weather.js"></script>
+
+</body>
+
+</html>

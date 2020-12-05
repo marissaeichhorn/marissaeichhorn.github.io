@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html></html>
+
+<head>
+    <Meta chartset="UTF-8">
+    <title>Webengeneering I</title>
+    <link rel="stylesheet" href="newsstyle.css">
+    <style>
+        .container{
+            width: 600px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="divRss"></div>
+    </div>
+
+    <script src="newsjquery.js"></script>
+    <script src="newsmoment.js"></script>
+    <script src="newsfeed.js"></script>
+    <script>
+        $('#divRSS').newsFeedEk({
+            FeedUrl: 'http://kautube.com/rss',
+            MaxCount: '3',
+            DateFormat: 'YYYY/MM/DD',
+            DateFormatLang: 'en'
+        })
+    </script>
+</body>
+</html>
