@@ -34,7 +34,8 @@ fetch('https://graph.instagram.com/'+idcValue+'?fields=id,media_type,media_url,u
 .then(response => response.json())
 .then(pic => {
     var urlcValue = pic['media_url'];
-     
+ 
+/* erhaltenen Bilder ins HTML einfügen */    
 document.getElementById("picinsta").src = urlaValue;
 document.getElementById("picinstb").src = urlbValue;
 document.getElementById("picinstc").src = urlcValue;
