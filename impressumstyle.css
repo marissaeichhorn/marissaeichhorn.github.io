@@ -44,15 +44,6 @@ nav li{
     line-height: normal;
     border-radius: 5px;
     }
-
-/* Header-Link color ------------------------------------------WARUM GEHT NICHT??????*/
-a:link {
-    color: darkred;
-  }
- 
-a:visited {
-    color: red;
-  }
   
 /* Content-Style */
 .content h2{

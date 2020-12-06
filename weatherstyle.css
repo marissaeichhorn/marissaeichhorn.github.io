@@ -48,18 +48,8 @@ nav li{
     line-height: normal;
     border-radius: 5px;
     }
-
-/* Header-Link color ------------------------------------------WARUM GEHT NICHT??????*/
-a:link {
-    color: darkred;
-  }
- 
-a:visited {
-    color: red;
-  }
   
 /* Content-Style */
-
 .input{
     text-align: center;
     margin: 20px auto;
@@ -92,7 +82,6 @@ input[type="submit"]{
 }
   
 /* Datenausgabe */
-
 .card{
     width: 50%;
     background:rgb(255, 255, 255);
