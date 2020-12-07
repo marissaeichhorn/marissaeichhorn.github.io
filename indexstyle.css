@@ -72,3 +72,9 @@ nav li{
     margin-bottom: 5px;
 
 }
+
+/* Datenflussdiagramm-Style */
+#flow{
+    width: 100%;
+    justify-content: center;
+}
