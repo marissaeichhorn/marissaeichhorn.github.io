@@ -55,6 +55,8 @@ nav li{
 
 /* Instabilder-Style */
 .pictures{
-    width: 25%;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+
+  
 }
